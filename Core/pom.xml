@@ -50,8 +50,8 @@
             </snapshots>
         </repository>
         <repository>
-            <id>everything</id>
-            <url>https://repo.citizensnpcs.co/</url>
+            <id>citizens</id>
+            <url>https://maven.citizensnpcs.co/repo</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
@@ -103,14 +103,12 @@
             </snapshots>
         </repository>
         <repository>
-            <id>phoenix2</id>
-            <url>https://nexus.phoenixdevt.fr/repository/maven-public/</url>
+            <id>scarsz</id>
+            <url>https://nexus.scarsz.me/content/groups/public/</url>
             <snapshots>
                 <enabled>false</enabled>
             </snapshots>
         </repository>
-
-
     </repositories>
 
     <dependencies>
@@ -147,7 +145,7 @@
         <dependency>
             <groupId>su.nightexpress.sunlight</groupId>
             <artifactId>Core</artifactId>
-            <version>3.8.0</version>
+            <version>3.9.0</version>
         </dependency>
         <dependency>
             <groupId>su.nightexpress.gamepoints</groupId>
@@ -215,8 +213,8 @@
         </dependency>
         <dependency>
             <groupId>com.gmail.nossr50</groupId>
-            <artifactId>mcMMO</artifactId>
-            <version>1.5.05</version>
+            <artifactId>mcmmo</artifactId>
+            <version>1.5.07</version>
         </dependency>
         <dependency>
             <groupId>net.Indyuce</groupId>
@@ -227,19 +225,19 @@
         <dependency>
             <groupId>io.lumine</groupId>
             <artifactId>MythicLib-dist</artifactId>
-            <version>1.5.1-SNAPSHOT</version>
+            <version>1.4</version>
             <scope>provided</scope>
             <optional>true</optional>
         </dependency>
         <dependency>
             <groupId>com.magmaguy</groupId>
-            <artifactId>EliteMobs</artifactId>
+            <artifactId>elitemobs</artifactId>
             <version>8.3.13</version>
         </dependency>
         <dependency>
             <groupId>it.dado997.BossMania</groupId>
             <artifactId>BossMania</artifactId>
-            <version>1.9.10</version>
+            <version>1.9.21</version>
         </dependency>
 
     </dependencies>
