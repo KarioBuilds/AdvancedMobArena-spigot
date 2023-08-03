@@ -134,9 +134,9 @@
             <version>2.19.0</version>
         </dependency>
         <dependency>
-            <groupId>com.gmail.nossr50</groupId>
-            <artifactId>mcmmo</artifactId>
-            <version>1.5.07</version>
+            <groupId>com.gmail.nossr50.mcMMO</groupId>
+            <artifactId>mcMMO</artifactId>
+            <version>1.5.00</version>
         </dependency>
         <dependency>
             <groupId>net.Indyuce</groupId>
