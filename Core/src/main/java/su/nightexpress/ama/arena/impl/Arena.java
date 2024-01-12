@@ -62,9 +62,9 @@ public class Arena implements IArena, Placeholder {
     private final Set<ArenaUpcomingWave>  upcomingWaves;
     private final Map<String, double[]>   waveAmplificatorValues; // [Amount, Level]
     private final Map<String, BossBar>    bossBarMap;
-    private final Map<String, Double> variableMap;
+    private final Map<String, Double>     variableMap;
     private final PlaceholderMap          placeholderMap;
-    private final PlaceholderMap placeholderVarMap;
+    private final PlaceholderMap          placeholderVarMap;
 
     private GameState  state;
     private GameResult gameResult;

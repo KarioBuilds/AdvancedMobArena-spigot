@@ -35,6 +35,7 @@ import java.util.stream.Collectors;
 
 public class ArenaManager extends AbstractManager<AMA> {
 
+    public static final String CONFIG_NAME = "config.yml";
     public static final String DIR_ARENAS = "/arenas/";
 
     private final Map<String, Arena> arenas;
@@ -52,7 +53,7 @@ public class ArenaManager extends AbstractManager<AMA> {
     protected void onLoad() {
         this.plugin.runTask(task -> {
             for (File folder : FileUtil.getFolders(plugin.getDataFolder() + DIR_ARENAS)) {
-                JYML cfg = new JYML(folder.getAbsolutePath(), "config.yml");
+                JYML cfg = new JYML(folder.getAbsolutePath(), CONFIG_NAME);
                 ArenaConfig config = new ArenaConfig(plugin, cfg, folder.getName());
                 if (config.load()) {
                     this.arenas.put(config.getId(), config.getArena());
@@ -114,7 +115,7 @@ public class ArenaManager extends AbstractManager<AMA> {
             return false;
         }
 
-        JYML cfg = new JYML(plugin.getDataFolder() + DIR_ARENAS + id, "config.yml");
+        JYML cfg = new JYML(plugin.getDataFolder() + DIR_ARENAS + id, CONFIG_NAME);
         ArenaConfig arenaConfig = new ArenaConfig(plugin, cfg, id);
         arenaConfig.setWorld(world);
         arenaConfig.setName(StringUtil.capitalizeUnderscored(id));

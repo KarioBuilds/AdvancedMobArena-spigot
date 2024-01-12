@@ -90,23 +90,13 @@
         </dependency>
         <dependency>
             <groupId>su.nightexpress.ama</groupId>
-            <artifactId>V1_18_R2</artifactId>
-            <version>7.14.0</version>
-        </dependency>
-        <dependency>
-            <groupId>su.nightexpress.ama</groupId>
             <artifactId>V1_19_R3</artifactId>
             <version>7.14.0</version>
         </dependency>
         <dependency>
-            <groupId>su.nightexpress.ama</groupId>
-            <artifactId>V1_20_R1</artifactId>
-            <version>7.14.0</version>
-        </dependency>
-        <dependency>
             <groupId>su.nightexpress.sunlight</groupId>
-            <artifactId>Core</artifactId>
-            <version>3.9.3</version>
+            <artifactId>SunLight</artifactId>
+            <version>3.10.1</version>
         </dependency>
         <dependency>
             <groupId>io.lumine</groupId>
@@ -162,7 +152,7 @@
             <optional>true</optional>
         </dependency>
         <dependency>
-            <groupId>com.magmaguy</groupId>
+            <groupId>com.magmaguy.elitemobs</groupId>
             <artifactId>EliteMobs</artifactId>
             <version>8.5.4</version>
         </dependency>
@@ -184,12 +174,12 @@
         <dependency>
             <groupId>su.nightexpress.combatpets</groupId>
             <artifactId>API</artifactId>
-            <version>1.0.25</version>
+            <version>1.0.29</version>
         </dependency>
         <dependency>
             <groupId>su.nightexpress.coinsengine</groupId>
             <artifactId>CoinsEngine</artifactId>
-            <version>2.0.5</version>
+            <version>2.1.1</version>
         </dependency>
     </dependencies>
 

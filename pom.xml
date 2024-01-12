@@ -9,12 +9,10 @@
     <packaging>pom</packaging>
     <version>7.14.0</version>
     <modules>
+        <module>API</module>
         <module>Core</module>
         <module>NMS</module>
-        <module>V1_18_R2</module>
         <module>V1_19_R3</module>
-        <module>V1_20_R1</module>
-        <module>API</module>
         <module>V1_20_R2</module>
         <module>V1_20_R3</module>
     </modules>
